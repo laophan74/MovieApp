@@ -30,13 +30,25 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FilmWatching));
             this.panel_filmwatching = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel14 = new System.Windows.Forms.Panel();
+            this.flow_comment = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel36 = new System.Windows.Forms.Panel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.flow_relateto = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel35 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.panel31 = new System.Windows.Forms.Panel();
+            this.guna2CircleButton5 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.panel32 = new System.Windows.Forms.Panel();
+            this.panel33 = new System.Windows.Forms.Panel();
+            this.guna2RatingStar2 = new Guna.UI2.WinForms.Guna2RatingStar();
+            this.label18 = new System.Windows.Forms.Label();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.label16 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
             this.panel15 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
@@ -67,46 +79,36 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel29 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
-            this.panel30 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel26 = new System.Windows.Forms.Panel();
-            this.panel31 = new System.Windows.Forms.Panel();
-            this.guna2CircleButton5 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.panel32 = new System.Windows.Forms.Panel();
-            this.panel33 = new System.Windows.Forms.Panel();
-            this.guna2RatingStar2 = new Guna.UI2.WinForms.Guna2RatingStar();
-            this.label18 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.guna2CircleButton4 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.panel10 = new System.Windows.Forms.Panel();
             this.bunifuSlider2 = new Bunifu.Framework.UI.BunifuSlider();
-            this.panel11 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.panel8 = new System.Windows.Forms.Panel();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel37 = new System.Windows.Forms.Panel();
+            this.label21 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.bunifuSlider3 = new Bunifu.Framework.UI.BunifuSlider();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.bunifuSlider1 = new Bunifu.Framework.UI.BunifuSlider();
-            this.panel34 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
-            this.panel35 = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.flow_relateto = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel36 = new System.Windows.Forms.Panel();
-            this.label20 = new System.Windows.Forms.Label();
-            this.flow_comment = new System.Windows.Forms.FlowLayoutPanel();
             this.panel_filmwatching.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel5.SuspendLayout();
+            this.panel36.SuspendLayout();
+            this.panel35.SuspendLayout();
+            this.panel31.SuspendLayout();
+            this.panel33.SuspendLayout();
+            this.panel30.SuspendLayout();
             this.panel15.SuspendLayout();
             this.panel16.SuspendLayout();
             this.panel17.SuspendLayout();
@@ -121,17 +123,13 @@
             this.panel27.SuspendLayout();
             this.panel28.SuspendLayout();
             this.panel29.SuspendLayout();
-            this.panel30.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel31.SuspendLayout();
-            this.panel33.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel10.SuspendLayout();
-            this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
-            this.panel35.SuspendLayout();
-            this.panel36.SuspendLayout();
+            this.panel37.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_filmwatching
@@ -156,69 +154,228 @@
             this.panel_filmwatching.Size = new System.Drawing.Size(1782, 953);
             this.panel_filmwatching.TabIndex = 0;
             // 
-            // panel2
+            // flow_comment
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1761, 31);
-            this.panel2.TabIndex = 0;
+            this.flow_comment.Dock = System.Windows.Forms.DockStyle.Top;
+            this.flow_comment.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flow_comment.Location = new System.Drawing.Point(50, 2084);
+            this.flow_comment.Name = "flow_comment";
+            this.flow_comment.Padding = new System.Windows.Forms.Padding(0, 0, 50, 0);
+            this.flow_comment.Size = new System.Drawing.Size(1661, 402);
+            this.flow_comment.TabIndex = 22;
             // 
-            // panel3
+            // panel36
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.panel3.Controls.Add(this.panel5);
-            this.panel3.Controls.Add(this.panel4);
-            this.panel3.Controls.Add(this.panel13);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 31);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1761, 782);
-            this.panel3.TabIndex = 2;
+            this.panel36.Controls.Add(this.label20);
+            this.panel36.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel36.Location = new System.Drawing.Point(50, 2029);
+            this.panel36.Name = "panel36";
+            this.panel36.Size = new System.Drawing.Size(1661, 55);
+            this.panel36.TabIndex = 21;
             // 
-            // panel5
+            // label20
             // 
-            this.panel5.Controls.Add(this.axWindowsMediaPlayer1);
-            this.panel5.Controls.Add(this.panel7);
-            this.panel5.Controls.Add(this.panel6);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(100, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1561, 782);
-            this.panel5.TabIndex = 2;
+            this.label20.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.Goldenrod;
+            this.label20.Location = new System.Drawing.Point(0, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(200, 55);
+            this.label20.TabIndex = 1;
+            this.label20.Text = "Comment";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // panel4
+            // flow_relateto
             // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(1661, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(100, 782);
-            this.panel4.TabIndex = 1;
+            this.flow_relateto.Dock = System.Windows.Forms.DockStyle.Top;
+            this.flow_relateto.Location = new System.Drawing.Point(50, 1627);
+            this.flow_relateto.Name = "flow_relateto";
+            this.flow_relateto.Padding = new System.Windows.Forms.Padding(0, 0, 50, 0);
+            this.flow_relateto.Size = new System.Drawing.Size(1661, 402);
+            this.flow_relateto.TabIndex = 20;
             // 
-            // panel13
+            // panel35
             // 
-            this.panel13.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel13.Location = new System.Drawing.Point(0, 0);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(100, 782);
-            this.panel13.TabIndex = 0;
+            this.panel35.Controls.Add(this.label19);
+            this.panel35.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel35.Location = new System.Drawing.Point(50, 1572);
+            this.panel35.Name = "panel35";
+            this.panel35.Size = new System.Drawing.Size(1661, 55);
+            this.panel35.TabIndex = 19;
             // 
-            // panel1
+            // label19
             // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 813);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(50, 1809);
-            this.panel1.TabIndex = 4;
+            this.label19.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.Goldenrod;
+            this.label19.Location = new System.Drawing.Point(0, 0);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(200, 55);
+            this.label19.TabIndex = 1;
+            this.label19.Text = "Relate to";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // panel14
+            // panel31
             // 
-            this.panel14.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel14.Location = new System.Drawing.Point(1711, 813);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(50, 1809);
-            this.panel14.TabIndex = 5;
+            this.panel31.Controls.Add(this.guna2CircleButton5);
+            this.panel31.Controls.Add(this.panel32);
+            this.panel31.Controls.Add(this.panel33);
+            this.panel31.Controls.Add(this.label18);
+            this.panel31.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel31.Location = new System.Drawing.Point(50, 1517);
+            this.panel31.Name = "panel31";
+            this.panel31.Size = new System.Drawing.Size(1661, 55);
+            this.panel31.TabIndex = 18;
+            // 
+            // guna2CircleButton5
+            // 
+            this.guna2CircleButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.guna2CircleButton5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.guna2CircleButton5.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.guna2CircleButton5.CheckedState.FillColor = System.Drawing.Color.Gray;
+            this.guna2CircleButton5.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.guna2CircleButton5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2CircleButton5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.guna2CircleButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton5.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton5.Image = global::MovieApp.Properties.Resources.task;
+            this.guna2CircleButton5.ImageSize = new System.Drawing.Size(25, 25);
+            this.guna2CircleButton5.Location = new System.Drawing.Point(491, 0);
+            this.guna2CircleButton5.Name = "guna2CircleButton5";
+            this.guna2CircleButton5.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
+            this.guna2CircleButton5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton5.Size = new System.Drawing.Size(69, 55);
+            this.guna2CircleButton5.TabIndex = 7;
+            // 
+            // panel32
+            // 
+            this.panel32.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel32.Location = new System.Drawing.Point(474, 0);
+            this.panel32.Name = "panel32";
+            this.panel32.Size = new System.Drawing.Size(17, 55);
+            this.panel32.TabIndex = 6;
+            // 
+            // panel33
+            // 
+            this.panel33.Controls.Add(this.guna2RatingStar2);
+            this.panel33.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel33.Location = new System.Drawing.Point(138, 0);
+            this.panel33.Name = "panel33";
+            this.panel33.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
+            this.panel33.Size = new System.Drawing.Size(336, 55);
+            this.panel33.TabIndex = 5;
+            // 
+            // guna2RatingStar2
+            // 
+            this.guna2RatingStar2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2RatingStar2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.guna2RatingStar2.Location = new System.Drawing.Point(0, 10);
+            this.guna2RatingStar2.Name = "guna2RatingStar2";
+            this.guna2RatingStar2.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.guna2RatingStar2.RatingColor = System.Drawing.Color.Yellow;
+            this.guna2RatingStar2.Size = new System.Drawing.Size(336, 35);
+            this.guna2RatingStar2.TabIndex = 3;
+            // 
+            // label18
+            // 
+            this.label18.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Goldenrod;
+            this.label18.Location = new System.Drawing.Point(0, 0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(138, 55);
+            this.label18.TabIndex = 1;
+            this.label18.Text = "Your rating:";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel26
+            // 
+            this.panel26.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel26.Location = new System.Drawing.Point(50, 1500);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(1661, 17);
+            this.panel26.TabIndex = 17;
+            // 
+            // panel30
+            // 
+            this.panel30.Controls.Add(this.label16);
+            this.panel30.Controls.Add(this.button5);
+            this.panel30.Controls.Add(this.button4);
+            this.panel30.Controls.Add(this.button3);
+            this.panel30.Controls.Add(this.label17);
+            this.panel30.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel30.Location = new System.Drawing.Point(50, 2536);
+            this.panel30.Name = "panel30";
+            this.panel30.Size = new System.Drawing.Size(1661, 86);
+            this.panel30.TabIndex = 16;
+            // 
+            // label16
+            // 
+            this.label16.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label16.Location = new System.Drawing.Point(346, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(346, 86);
+            this.label16.TabIndex = 4;
+            this.label16.Text = "Introduce\r\nContact us\r\n";
+            // 
+            // button5
+            // 
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button5.Image = global::MovieApp.Properties.Resources.twitter;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(1080, 13);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(147, 46);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "Twitter";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button4.Image = global::MovieApp.Properties.Resources.instagram;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(915, 13);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(147, 46);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "Instagram";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button3.Image = global::MovieApp.Properties.Resources.facebook;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(755, 13);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(147, 46);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "Facebook";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // label17
+            // 
+            this.label17.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label17.Location = new System.Drawing.Point(0, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(346, 86);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "Phan Tiến Lào\r\nPhan Huy Mạnh\r\nĐồ Án 1\r\n";
             // 
             // panel15
             // 
@@ -556,83 +713,6 @@
             this.label15.Text = "MIỄN PHÍ";
             this.label15.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
-            // panel30
-            // 
-            this.panel30.Controls.Add(this.label16);
-            this.panel30.Controls.Add(this.button5);
-            this.panel30.Controls.Add(this.button4);
-            this.panel30.Controls.Add(this.button3);
-            this.panel30.Controls.Add(this.label17);
-            this.panel30.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel30.Location = new System.Drawing.Point(50, 2536);
-            this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(1661, 86);
-            this.panel30.TabIndex = 16;
-            // 
-            // label16
-            // 
-            this.label16.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label16.Location = new System.Drawing.Point(346, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(346, 86);
-            this.label16.TabIndex = 4;
-            this.label16.Text = "Introduce\r\nContact us\r\n";
-            // 
-            // label17
-            // 
-            this.label17.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label17.Location = new System.Drawing.Point(0, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(346, 86);
-            this.label17.TabIndex = 0;
-            this.label17.Text = "Phan Tiến Lào\r\nPhan Huy Mạnh\r\nĐồ Án 1\r\n";
-            // 
-            // button5
-            // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button5.Image = global::MovieApp.Properties.Resources.twitter;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(1080, 13);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(147, 46);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "Twitter";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button4.Image = global::MovieApp.Properties.Resources.instagram;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(915, 13);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(147, 46);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Instagram";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button3.Image = global::MovieApp.Properties.Resources.facebook;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(755, 13);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(147, 46);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Facebook";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
@@ -654,101 +734,49 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // panel26
+            // panel14
             // 
-            this.panel26.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel26.Location = new System.Drawing.Point(50, 1500);
-            this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(1661, 17);
-            this.panel26.TabIndex = 17;
+            this.panel14.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel14.Location = new System.Drawing.Point(1711, 813);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(50, 1809);
+            this.panel14.TabIndex = 5;
             // 
-            // panel31
+            // panel1
             // 
-            this.panel31.Controls.Add(this.guna2CircleButton5);
-            this.panel31.Controls.Add(this.panel32);
-            this.panel31.Controls.Add(this.panel33);
-            this.panel31.Controls.Add(this.label18);
-            this.panel31.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel31.Location = new System.Drawing.Point(50, 1517);
-            this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(1661, 55);
-            this.panel31.TabIndex = 18;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 813);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(50, 1809);
+            this.panel1.TabIndex = 4;
             // 
-            // guna2CircleButton5
+            // panel3
             // 
-            this.guna2CircleButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guna2CircleButton5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.guna2CircleButton5.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.guna2CircleButton5.CheckedState.FillColor = System.Drawing.Color.Gray;
-            this.guna2CircleButton5.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.guna2CircleButton5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2CircleButton5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
-            this.guna2CircleButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton5.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton5.Image = global::MovieApp.Properties.Resources.task;
-            this.guna2CircleButton5.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2CircleButton5.Location = new System.Drawing.Point(491, 0);
-            this.guna2CircleButton5.Name = "guna2CircleButton5";
-            this.guna2CircleButton5.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
-            this.guna2CircleButton5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton5.Size = new System.Drawing.Size(69, 55);
-            this.guna2CircleButton5.TabIndex = 7;
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.panel3.Controls.Add(this.panel5);
+            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Controls.Add(this.panel13);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 31);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1761, 782);
+            this.panel3.TabIndex = 2;
             // 
-            // panel32
+            // panel5
             // 
-            this.panel32.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel32.Location = new System.Drawing.Point(474, 0);
-            this.panel32.Name = "panel32";
-            this.panel32.Size = new System.Drawing.Size(17, 55);
-            this.panel32.TabIndex = 6;
-            // 
-            // panel33
-            // 
-            this.panel33.Controls.Add(this.guna2RatingStar2);
-            this.panel33.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel33.Location = new System.Drawing.Point(138, 0);
-            this.panel33.Name = "panel33";
-            this.panel33.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.panel33.Size = new System.Drawing.Size(336, 55);
-            this.panel33.TabIndex = 5;
-            // 
-            // guna2RatingStar2
-            // 
-            this.guna2RatingStar2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2RatingStar2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.guna2RatingStar2.Location = new System.Drawing.Point(0, 10);
-            this.guna2RatingStar2.Name = "guna2RatingStar2";
-            this.guna2RatingStar2.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.guna2RatingStar2.RatingColor = System.Drawing.Color.Yellow;
-            this.guna2RatingStar2.Size = new System.Drawing.Size(336, 35);
-            this.guna2RatingStar2.TabIndex = 3;
-            // 
-            // label18
-            // 
-            this.label18.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label18.Location = new System.Drawing.Point(0, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(138, 55);
-            this.label18.TabIndex = 1;
-            this.label18.Text = "Your rate:";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // panel6
-            // 
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(0, 767);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1561, 15);
-            this.panel6.TabIndex = 3;
+            this.panel5.Controls.Add(this.panel12);
+            this.panel5.Controls.Add(this.panel7);
+            this.panel5.Controls.Add(this.panel6);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(100, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1561, 782);
+            this.panel5.TabIndex = 2;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // panel7
             // 
+            this.panel7.Controls.Add(this.panel37);
             this.panel7.Controls.Add(this.guna2CircleButton4);
             this.panel7.Controls.Add(this.panel10);
             this.panel7.Controls.Add(this.panel9);
@@ -756,12 +784,11 @@
             this.panel7.Controls.Add(this.guna2CircleButton2);
             this.panel7.Controls.Add(this.panel8);
             this.panel7.Controls.Add(this.guna2CircleButton1);
-            this.panel7.Controls.Add(this.panel12);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel7.Location = new System.Drawing.Point(0, 680);
+            this.panel7.Location = new System.Drawing.Point(0, 737);
             this.panel7.Name = "panel7";
             this.panel7.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.panel7.Size = new System.Drawing.Size(1561, 87);
+            this.panel7.Size = new System.Drawing.Size(1561, 35);
             this.panel7.TabIndex = 4;
             // 
             // guna2CircleButton4
@@ -777,20 +804,21 @@
             this.guna2CircleButton4.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton4.Image = global::MovieApp.Properties.Resources.speaker;
             this.guna2CircleButton4.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2CircleButton4.Location = new System.Drawing.Point(1289, 42);
+            this.guna2CircleButton4.Location = new System.Drawing.Point(1289, 0);
+            this.guna2CircleButton4.Margin = new System.Windows.Forms.Padding(10, 3, 10, 3);
             this.guna2CircleButton4.Name = "guna2CircleButton4";
+            this.guna2CircleButton4.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.guna2CircleButton4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton4.Size = new System.Drawing.Size(38, 45);
+            this.guna2CircleButton4.Size = new System.Drawing.Size(38, 35);
             this.guna2CircleButton4.TabIndex = 11;
             // 
             // panel10
             // 
             this.panel10.Controls.Add(this.bunifuSlider2);
-            this.panel10.Controls.Add(this.panel11);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel10.Location = new System.Drawing.Point(1327, 42);
+            this.panel10.Location = new System.Drawing.Point(1327, 0);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(174, 45);
+            this.panel10.Size = new System.Drawing.Size(174, 35);
             this.panel10.TabIndex = 10;
             // 
             // bunifuSlider2
@@ -800,7 +828,7 @@
             this.bunifuSlider2.BorderRadius = 10;
             this.bunifuSlider2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuSlider2.IndicatorColor = System.Drawing.Color.Goldenrod;
-            this.bunifuSlider2.Location = new System.Drawing.Point(0, 5);
+            this.bunifuSlider2.Location = new System.Drawing.Point(0, 0);
             this.bunifuSlider2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuSlider2.MaximumValue = 100;
             this.bunifuSlider2.Name = "bunifuSlider2";
@@ -808,20 +836,12 @@
             this.bunifuSlider2.TabIndex = 9;
             this.bunifuSlider2.Value = 0;
             // 
-            // panel11
-            // 
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel11.Location = new System.Drawing.Point(0, 0);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(174, 5);
-            this.panel11.TabIndex = 0;
-            // 
             // panel9
             // 
             this.panel9.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel9.Location = new System.Drawing.Point(1501, 42);
+            this.panel9.Location = new System.Drawing.Point(1501, 0);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(22, 45);
+            this.panel9.Size = new System.Drawing.Size(22, 35);
             this.panel9.TabIndex = 5;
             // 
             // guna2CircleButton3
@@ -837,10 +857,10 @@
             this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton3.Image = global::MovieApp.Properties.Resources.full_screen;
             this.guna2CircleButton3.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2CircleButton3.Location = new System.Drawing.Point(1523, 42);
+            this.guna2CircleButton3.Location = new System.Drawing.Point(1523, 0);
             this.guna2CircleButton3.Name = "guna2CircleButton3";
             this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton3.Size = new System.Drawing.Size(38, 45);
+            this.guna2CircleButton3.Size = new System.Drawing.Size(38, 35);
             this.guna2CircleButton3.TabIndex = 4;
             // 
             // guna2CircleButton2
@@ -856,18 +876,18 @@
             this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton2.Image = global::MovieApp.Properties.Resources.pause__1_;
             this.guna2CircleButton2.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2CircleButton2.Location = new System.Drawing.Point(65, 42);
+            this.guna2CircleButton2.Location = new System.Drawing.Point(65, 0);
             this.guna2CircleButton2.Name = "guna2CircleButton2";
             this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton2.Size = new System.Drawing.Size(38, 45);
+            this.guna2CircleButton2.Size = new System.Drawing.Size(38, 35);
             this.guna2CircleButton2.TabIndex = 3;
             // 
             // panel8
             // 
             this.panel8.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel8.Location = new System.Drawing.Point(43, 42);
+            this.panel8.Location = new System.Drawing.Point(43, 0);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(22, 45);
+            this.panel8.Size = new System.Drawing.Size(22, 35);
             this.panel8.TabIndex = 2;
             // 
             // guna2CircleButton1
@@ -883,128 +903,99 @@
             this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
             this.guna2CircleButton1.Image = global::MovieApp.Properties.Resources.play_button__1_;
             this.guna2CircleButton1.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2CircleButton1.Location = new System.Drawing.Point(5, 42);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(5, 0);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(38, 45);
+            this.guna2CircleButton1.Size = new System.Drawing.Size(38, 35);
             this.guna2CircleButton1.TabIndex = 1;
+            // 
+            // panel6
+            // 
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel6.Location = new System.Drawing.Point(0, 772);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(1561, 10);
+            this.panel6.TabIndex = 3;
+            // 
+            // panel4
+            // 
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel4.Location = new System.Drawing.Point(1661, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(100, 782);
+            this.panel4.TabIndex = 1;
+            // 
+            // panel13
+            // 
+            this.panel13.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel13.Location = new System.Drawing.Point(0, 0);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(100, 782);
+            this.panel13.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1761, 31);
+            this.panel2.TabIndex = 0;
+            // 
+            // panel37
+            // 
+            this.panel37.Controls.Add(this.bunifuSlider3);
+            this.panel37.Controls.Add(this.panel11);
+            this.panel37.Controls.Add(this.label21);
+            this.panel37.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel37.Location = new System.Drawing.Point(103, 0);
+            this.panel37.Name = "panel37";
+            this.panel37.Size = new System.Drawing.Size(1186, 35);
+            this.panel37.TabIndex = 12;
+            // 
+            // label21
+            // 
+            this.label21.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label21.ForeColor = System.Drawing.Color.White;
+            this.label21.Location = new System.Drawing.Point(0, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(60, 35);
+            this.label21.TabIndex = 1;
+            this.label21.Text = "00:00";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel11
+            // 
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel11.Location = new System.Drawing.Point(1158, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(28, 35);
+            this.panel11.TabIndex = 2;
+            // 
+            // bunifuSlider3
+            // 
+            this.bunifuSlider3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSlider3.BackgroudColor = System.Drawing.Color.DarkGray;
+            this.bunifuSlider3.BorderRadius = 10;
+            this.bunifuSlider3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuSlider3.IndicatorColor = System.Drawing.Color.Goldenrod;
+            this.bunifuSlider3.Location = new System.Drawing.Point(60, 0);
+            this.bunifuSlider3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuSlider3.MaximumValue = 100;
+            this.bunifuSlider3.Name = "bunifuSlider3";
+            this.bunifuSlider3.Size = new System.Drawing.Size(1098, 35);
+            this.bunifuSlider3.TabIndex = 4;
+            this.bunifuSlider3.Value = 0;
             // 
             // panel12
             // 
-            this.panel12.Controls.Add(this.bunifuSlider1);
-            this.panel12.Controls.Add(this.panel34);
-            this.panel12.Controls.Add(this.label1);
-            this.panel12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel12.Location = new System.Drawing.Point(5, 0);
+            this.panel12.BackColor = System.Drawing.Color.Black;
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel12.Location = new System.Drawing.Point(0, 0);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(1556, 42);
-            this.panel12.TabIndex = 0;
-            // 
-            // bunifuSlider1
-            // 
-            this.bunifuSlider1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSlider1.BackgroudColor = System.Drawing.Color.DarkGray;
-            this.bunifuSlider1.BorderRadius = 10;
-            this.bunifuSlider1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuSlider1.IndicatorColor = System.Drawing.Color.Goldenrod;
-            this.bunifuSlider1.Location = new System.Drawing.Point(60, 5);
-            this.bunifuSlider1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuSlider1.MaximumValue = 100;
-            this.bunifuSlider1.Name = "bunifuSlider1";
-            this.bunifuSlider1.Size = new System.Drawing.Size(1496, 35);
-            this.bunifuSlider1.TabIndex = 2;
-            this.bunifuSlider1.Value = 0;
-            // 
-            // panel34
-            // 
-            this.panel34.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel34.Location = new System.Drawing.Point(60, 0);
-            this.panel34.Name = "panel34";
-            this.panel34.Size = new System.Drawing.Size(1496, 5);
-            this.panel34.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 42);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "00:00";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // axWindowsMediaPlayer1
-            // 
-            this.axWindowsMediaPlayer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(0, 0);
-            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
-            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(1561, 680);
-            this.axWindowsMediaPlayer1.TabIndex = 5;
-            // 
-            // panel35
-            // 
-            this.panel35.Controls.Add(this.label19);
-            this.panel35.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel35.Location = new System.Drawing.Point(50, 1572);
-            this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(1661, 55);
-            this.panel35.TabIndex = 19;
-            // 
-            // label19
-            // 
-            this.label19.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label19.Location = new System.Drawing.Point(0, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(200, 55);
-            this.label19.TabIndex = 1;
-            this.label19.Text = "Relate to";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // flow_relateto
-            // 
-            this.flow_relateto.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flow_relateto.Location = new System.Drawing.Point(50, 1627);
-            this.flow_relateto.Name = "flow_relateto";
-            this.flow_relateto.Padding = new System.Windows.Forms.Padding(0, 0, 50, 0);
-            this.flow_relateto.Size = new System.Drawing.Size(1661, 402);
-            this.flow_relateto.TabIndex = 20;
-            // 
-            // panel36
-            // 
-            this.panel36.Controls.Add(this.label20);
-            this.panel36.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel36.Location = new System.Drawing.Point(50, 2029);
-            this.panel36.Name = "panel36";
-            this.panel36.Size = new System.Drawing.Size(1661, 55);
-            this.panel36.TabIndex = 21;
-            // 
-            // label20
-            // 
-            this.label20.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label20.Location = new System.Drawing.Point(0, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(200, 55);
-            this.label20.TabIndex = 1;
-            this.label20.Text = "Comment";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // flow_comment
-            // 
-            this.flow_comment.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flow_comment.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flow_comment.Location = new System.Drawing.Point(50, 2084);
-            this.flow_comment.Name = "flow_comment";
-            this.flow_comment.Padding = new System.Windows.Forms.Padding(0, 0, 50, 0);
-            this.flow_comment.Size = new System.Drawing.Size(1661, 402);
-            this.flow_comment.TabIndex = 22;
+            this.panel12.Size = new System.Drawing.Size(1561, 737);
+            this.panel12.TabIndex = 5;
             // 
             // FilmWatching
             // 
@@ -1019,8 +1010,11 @@
             this.Name = "FilmWatching";
             this.Text = "FilmWatching";
             this.panel_filmwatching.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
+            this.panel36.ResumeLayout(false);
+            this.panel35.ResumeLayout(false);
+            this.panel31.ResumeLayout(false);
+            this.panel33.ResumeLayout(false);
+            this.panel30.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
             this.panel17.ResumeLayout(false);
@@ -1035,17 +1029,13 @@
             this.panel27.ResumeLayout(false);
             this.panel28.ResumeLayout(false);
             this.panel29.ResumeLayout(false);
-            this.panel30.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel31.ResumeLayout(false);
-            this.panel33.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
-            this.panel12.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
-            this.panel35.ResumeLayout(false);
-            this.panel36.ResumeLayout(false);
+            this.panel37.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1105,21 +1095,15 @@
         private Guna.UI2.WinForms.Guna2RatingStar guna2RatingStar2;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Panel panel26;
-        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
         private System.Windows.Forms.Panel panel7;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton4;
         private System.Windows.Forms.Panel panel10;
         private Bunifu.Framework.UI.BunifuSlider bunifuSlider2;
-        private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel9;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton3;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton2;
         private System.Windows.Forms.Panel panel8;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
-        private System.Windows.Forms.Panel panel12;
-        private Bunifu.Framework.UI.BunifuSlider bunifuSlider1;
-        private System.Windows.Forms.Panel panel34;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel35;
         private System.Windows.Forms.Label label19;
@@ -1127,5 +1111,10 @@
         private System.Windows.Forms.Panel panel36;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.FlowLayoutPanel flow_relateto;
+        private System.Windows.Forms.Panel panel37;
+        private System.Windows.Forms.Label label21;
+        private Bunifu.Framework.UI.BunifuSlider bunifuSlider3;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panel12;
     }
 }
