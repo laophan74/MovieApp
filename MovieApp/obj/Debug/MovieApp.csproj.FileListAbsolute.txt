@@ -36,7 +36,6 @@ C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.DetailFilm.resources
 C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.CustomTextbox.resources
 C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.Film.resources
 C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.FilmWatching.resources
-C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.Main.resources
 C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.Properties.Resources.resources
 C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.csproj.GenerateResource.cache
 C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.exe.licenses
@@ -44,3 +43,9 @@ C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.csproj.CoreCompileInp
 C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.csproj.CopyComplete
 C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.exe
 C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.pdb
+C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.MainScreen.resources
+C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.MainScreenFilm.resources
+C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.SignUp.resources
+C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.SignIn.resources
+C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.UserProfile.resources
+C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.Comment.resources

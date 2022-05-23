@@ -30,7 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FilmWatching));
             this.panel_filmwatching = new System.Windows.Forms.Panel();
+            this.panel34 = new System.Windows.Forms.Panel();
+            this.panel38 = new System.Windows.Forms.Panel();
             this.flow_comment = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel39 = new System.Windows.Forms.Panel();
             this.panel36 = new System.Windows.Forms.Panel();
             this.label20 = new System.Windows.Forms.Label();
             this.flow_relateto = new System.Windows.Forms.FlowLayoutPanel();
@@ -85,7 +88,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.panel37 = new System.Windows.Forms.Panel();
+            this.bunifuSlider3 = new Bunifu.Framework.UI.BunifuSlider();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.label21 = new System.Windows.Forms.Label();
             this.guna2CircleButton4 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.panel10 = new System.Windows.Forms.Panel();
             this.bunifuSlider2 = new Bunifu.Framework.UI.BunifuSlider();
@@ -98,12 +106,20 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel37 = new System.Windows.Forms.Panel();
-            this.label21 = new System.Windows.Forms.Label();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.bunifuSlider3 = new Bunifu.Framework.UI.BunifuSlider();
-            this.panel12 = new System.Windows.Forms.Panel();
+            this.panel40 = new System.Windows.Forms.Panel();
+            this.panel41 = new System.Windows.Forms.Panel();
+            this.panel42 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel43 = new System.Windows.Forms.Panel();
+            this.panel44 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel45 = new System.Windows.Forms.Panel();
+            this.panel46 = new System.Windows.Forms.Panel();
+            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.panel_filmwatching.SuspendLayout();
+            this.panel34.SuspendLayout();
+            this.panel38.SuspendLayout();
+            this.panel39.SuspendLayout();
             this.panel36.SuspendLayout();
             this.panel35.SuspendLayout();
             this.panel31.SuspendLayout();
@@ -128,15 +144,19 @@
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel7.SuspendLayout();
-            this.panel10.SuspendLayout();
             this.panel37.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel41.SuspendLayout();
+            this.panel42.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel46.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_filmwatching
             // 
             this.panel_filmwatching.AutoScroll = true;
             this.panel_filmwatching.AutoScrollMargin = new System.Drawing.Size(0, 50);
-            this.panel_filmwatching.Controls.Add(this.flow_comment);
+            this.panel_filmwatching.Controls.Add(this.panel34);
             this.panel_filmwatching.Controls.Add(this.panel36);
             this.panel_filmwatching.Controls.Add(this.flow_relateto);
             this.panel_filmwatching.Controls.Add(this.panel35);
@@ -154,15 +174,45 @@
             this.panel_filmwatching.Size = new System.Drawing.Size(1782, 953);
             this.panel_filmwatching.TabIndex = 0;
             // 
+            // panel34
+            // 
+            this.panel34.Controls.Add(this.panel38);
+            this.panel34.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel34.Location = new System.Drawing.Point(50, 2084);
+            this.panel34.Name = "panel34";
+            this.panel34.Size = new System.Drawing.Size(1661, 604);
+            this.panel34.TabIndex = 22;
+            // 
+            // panel38
+            // 
+            this.panel38.Controls.Add(this.flow_comment);
+            this.panel38.Controls.Add(this.panel39);
+            this.panel38.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel38.Location = new System.Drawing.Point(0, 0);
+            this.panel38.Name = "panel38";
+            this.panel38.Size = new System.Drawing.Size(1294, 604);
+            this.panel38.TabIndex = 0;
+            // 
             // flow_comment
             // 
-            this.flow_comment.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flow_comment.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flow_comment.Location = new System.Drawing.Point(50, 2084);
+            this.flow_comment.AutoScroll = true;
+            this.flow_comment.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flow_comment.Location = new System.Drawing.Point(0, 0);
             this.flow_comment.Name = "flow_comment";
-            this.flow_comment.Padding = new System.Windows.Forms.Padding(0, 0, 50, 0);
-            this.flow_comment.Size = new System.Drawing.Size(1661, 402);
-            this.flow_comment.TabIndex = 22;
+            this.flow_comment.Size = new System.Drawing.Size(1294, 512);
+            this.flow_comment.TabIndex = 1;
+            // 
+            // panel39
+            // 
+            this.panel39.Controls.Add(this.panel46);
+            this.panel39.Controls.Add(this.panel45);
+            this.panel39.Controls.Add(this.panel41);
+            this.panel39.Controls.Add(this.panel40);
+            this.panel39.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel39.Location = new System.Drawing.Point(0, 512);
+            this.panel39.Name = "panel39";
+            this.panel39.Size = new System.Drawing.Size(1294, 92);
+            this.panel39.TabIndex = 0;
             // 
             // panel36
             // 
@@ -308,7 +358,7 @@
             this.panel30.Controls.Add(this.button3);
             this.panel30.Controls.Add(this.label17);
             this.panel30.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel30.Location = new System.Drawing.Point(50, 2536);
+            this.panel30.Location = new System.Drawing.Point(50, 2738);
             this.panel30.Name = "panel30";
             this.panel30.Size = new System.Drawing.Size(1661, 86);
             this.panel30.TabIndex = 16;
@@ -739,7 +789,7 @@
             this.panel14.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel14.Location = new System.Drawing.Point(1711, 813);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(50, 1809);
+            this.panel14.Size = new System.Drawing.Size(50, 2011);
             this.panel14.TabIndex = 5;
             // 
             // panel1
@@ -747,7 +797,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 813);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(50, 1809);
+            this.panel1.Size = new System.Drawing.Size(50, 2011);
             this.panel1.TabIndex = 4;
             // 
             // panel3
@@ -774,6 +824,15 @@
             this.panel5.TabIndex = 2;
             this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.Color.Black;
+            this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel12.Location = new System.Drawing.Point(0, 0);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(1561, 737);
+            this.panel12.TabIndex = 5;
+            // 
             // panel7
             // 
             this.panel7.Controls.Add(this.panel37);
@@ -790,6 +849,51 @@
             this.panel7.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.panel7.Size = new System.Drawing.Size(1561, 35);
             this.panel7.TabIndex = 4;
+            // 
+            // panel37
+            // 
+            this.panel37.Controls.Add(this.bunifuSlider3);
+            this.panel37.Controls.Add(this.panel11);
+            this.panel37.Controls.Add(this.label21);
+            this.panel37.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel37.Location = new System.Drawing.Point(103, 0);
+            this.panel37.Name = "panel37";
+            this.panel37.Size = new System.Drawing.Size(1186, 35);
+            this.panel37.TabIndex = 12;
+            // 
+            // bunifuSlider3
+            // 
+            this.bunifuSlider3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSlider3.BackgroudColor = System.Drawing.Color.DarkGray;
+            this.bunifuSlider3.BorderRadius = 10;
+            this.bunifuSlider3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuSlider3.IndicatorColor = System.Drawing.Color.Goldenrod;
+            this.bunifuSlider3.Location = new System.Drawing.Point(60, 0);
+            this.bunifuSlider3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuSlider3.MaximumValue = 100;
+            this.bunifuSlider3.Name = "bunifuSlider3";
+            this.bunifuSlider3.Size = new System.Drawing.Size(1098, 35);
+            this.bunifuSlider3.TabIndex = 4;
+            this.bunifuSlider3.Value = 0;
+            // 
+            // panel11
+            // 
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel11.Location = new System.Drawing.Point(1158, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(28, 35);
+            this.panel11.TabIndex = 2;
+            // 
+            // label21
+            // 
+            this.label21.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label21.ForeColor = System.Drawing.Color.White;
+            this.label21.Location = new System.Drawing.Point(0, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(60, 35);
+            this.label21.TabIndex = 1;
+            this.label21.Text = "00:00";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // guna2CircleButton4
             // 
@@ -943,59 +1047,115 @@
             this.panel2.Size = new System.Drawing.Size(1761, 31);
             this.panel2.TabIndex = 0;
             // 
-            // panel37
+            // panel40
             // 
-            this.panel37.Controls.Add(this.bunifuSlider3);
-            this.panel37.Controls.Add(this.panel11);
-            this.panel37.Controls.Add(this.label21);
-            this.panel37.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel37.Location = new System.Drawing.Point(103, 0);
-            this.panel37.Name = "panel37";
-            this.panel37.Size = new System.Drawing.Size(1186, 35);
-            this.panel37.TabIndex = 12;
+            this.panel40.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel40.Location = new System.Drawing.Point(0, 0);
+            this.panel40.Name = "panel40";
+            this.panel40.Size = new System.Drawing.Size(1294, 12);
+            this.panel40.TabIndex = 0;
             // 
-            // label21
+            // panel41
             // 
-            this.label21.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(0, 0);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(60, 35);
-            this.label21.TabIndex = 1;
-            this.label21.Text = "00:00";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.panel41.Controls.Add(this.panel42);
+            this.panel41.Controls.Add(this.label1);
+            this.panel41.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel41.Location = new System.Drawing.Point(0, 12);
+            this.panel41.Name = "panel41";
+            this.panel41.Size = new System.Drawing.Size(100, 80);
+            this.panel41.TabIndex = 2;
             // 
-            // panel11
+            // panel42
             // 
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel11.Location = new System.Drawing.Point(1158, 0);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(28, 35);
-            this.panel11.TabIndex = 2;
+            this.panel42.Controls.Add(this.pictureBox3);
+            this.panel42.Controls.Add(this.panel43);
+            this.panel42.Controls.Add(this.panel44);
+            this.panel42.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel42.Location = new System.Drawing.Point(0, 0);
+            this.panel42.Name = "panel42";
+            this.panel42.Size = new System.Drawing.Size(100, 64);
+            this.panel42.TabIndex = 2;
             // 
-            // bunifuSlider3
+            // pictureBox3
             // 
-            this.bunifuSlider3.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSlider3.BackgroudColor = System.Drawing.Color.DarkGray;
-            this.bunifuSlider3.BorderRadius = 10;
-            this.bunifuSlider3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuSlider3.IndicatorColor = System.Drawing.Color.Goldenrod;
-            this.bunifuSlider3.Location = new System.Drawing.Point(60, 0);
-            this.bunifuSlider3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuSlider3.MaximumValue = 100;
-            this.bunifuSlider3.Name = "bunifuSlider3";
-            this.bunifuSlider3.Size = new System.Drawing.Size(1098, 35);
-            this.bunifuSlider3.TabIndex = 4;
-            this.bunifuSlider3.Value = 0;
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox3.Image = global::MovieApp.Properties.Resources.user;
+            this.pictureBox3.Location = new System.Drawing.Point(11, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(78, 64);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
             // 
-            // panel12
+            // panel43
             // 
-            this.panel12.BackColor = System.Drawing.Color.Black;
-            this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel12.Location = new System.Drawing.Point(0, 0);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(1561, 737);
-            this.panel12.TabIndex = 5;
+            this.panel43.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel43.Location = new System.Drawing.Point(89, 0);
+            this.panel43.Name = "panel43";
+            this.panel43.Size = new System.Drawing.Size(11, 64);
+            this.panel43.TabIndex = 1;
+            // 
+            // panel44
+            // 
+            this.panel44.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel44.Location = new System.Drawing.Point(0, 0);
+            this.panel44.Name = "panel44";
+            this.panel44.Size = new System.Drawing.Size(11, 64);
+            this.panel44.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(0, 64);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Username";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel45
+            // 
+            this.panel45.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel45.Location = new System.Drawing.Point(100, 12);
+            this.panel45.Name = "panel45";
+            this.panel45.Size = new System.Drawing.Size(22, 80);
+            this.panel45.TabIndex = 3;
+            // 
+            // panel46
+            // 
+            this.panel46.Controls.Add(this.guna2TextBox1);
+            this.panel46.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel46.Location = new System.Drawing.Point(122, 12);
+            this.panel46.Name = "panel46";
+            this.panel46.Size = new System.Drawing.Size(1172, 80);
+            this.panel46.TabIndex = 4;
+            // 
+            // guna2TextBox1
+            // 
+            this.guna2TextBox1.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2TextBox1.BorderRadius = 10;
+            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox1.DefaultText = "";
+            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2TextBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
+            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TextBox1.ForeColor = System.Drawing.Color.White;
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.Location = new System.Drawing.Point(0, 0);
+            this.guna2TextBox1.Multiline = true;
+            this.guna2TextBox1.Name = "guna2TextBox1";
+            this.guna2TextBox1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 3);
+            this.guna2TextBox1.PasswordChar = '\0';
+            this.guna2TextBox1.PlaceholderText = "Add your comment here";
+            this.guna2TextBox1.SelectedText = "";
+            this.guna2TextBox1.Size = new System.Drawing.Size(1172, 64);
+            this.guna2TextBox1.TabIndex = 4;
             // 
             // FilmWatching
             // 
@@ -1009,7 +1169,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FilmWatching";
             this.Text = "FilmWatching";
+            this.Load += new System.EventHandler(this.FilmWatching_Load);
             this.panel_filmwatching.ResumeLayout(false);
+            this.panel34.ResumeLayout(false);
+            this.panel38.ResumeLayout(false);
+            this.panel39.ResumeLayout(false);
             this.panel36.ResumeLayout(false);
             this.panel35.ResumeLayout(false);
             this.panel31.ResumeLayout(false);
@@ -1034,8 +1198,12 @@
             this.panel3.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
-            this.panel10.ResumeLayout(false);
             this.panel37.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
+            this.panel41.ResumeLayout(false);
+            this.panel42.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel46.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1107,7 +1275,6 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel35;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.FlowLayoutPanel flow_comment;
         private System.Windows.Forms.Panel panel36;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.FlowLayoutPanel flow_relateto;
@@ -1116,5 +1283,19 @@
         private Bunifu.Framework.UI.BunifuSlider bunifuSlider3;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel panel34;
+        private System.Windows.Forms.Panel panel38;
+        private System.Windows.Forms.FlowLayoutPanel flow_comment;
+        private System.Windows.Forms.Panel panel39;
+        private System.Windows.Forms.Panel panel41;
+        private System.Windows.Forms.Panel panel42;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Panel panel43;
+        private System.Windows.Forms.Panel panel44;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel40;
+        private System.Windows.Forms.Panel panel45;
+        private System.Windows.Forms.Panel panel46;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
     }
 }

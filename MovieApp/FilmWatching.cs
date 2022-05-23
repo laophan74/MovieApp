@@ -12,6 +12,7 @@ namespace MovieApp
 {
     public partial class FilmWatching : Form
     {
+        private Comment comment = new Comment();
         public FilmWatching()
         {
             InitializeComponent();
@@ -20,6 +21,12 @@ namespace MovieApp
         private void panel5_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void FilmWatching_Load(object sender, EventArgs e)
+        {
+            flow_comment.Controls.Clear();
+            flow_comment.Controls.Add(comment);
         }
     }
 }

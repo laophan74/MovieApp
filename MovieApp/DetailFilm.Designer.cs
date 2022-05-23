@@ -79,6 +79,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel21 = new System.Windows.Forms.Panel();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel_Detailfilm.SuspendLayout();
             this.panel18.SuspendLayout();
             this.panel20.SuspendLayout();
@@ -545,6 +547,8 @@
             // 
             // panel7
             // 
+            this.panel7.Controls.Add(this.button2);
+            this.panel7.Controls.Add(this.panel22);
             this.panel7.Controls.Add(this.button1);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(15, 134);
@@ -562,7 +566,7 @@
             this.button1.ForeColor = System.Drawing.Color.Goldenrod;
             this.button1.Location = new System.Drawing.Point(0, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 44);
+            this.button1.Size = new System.Drawing.Size(121, 44);
             this.button1.TabIndex = 0;
             this.button1.Text = "▶     PLAY";
             this.button1.UseVisualStyleBackColor = true;
@@ -671,6 +675,28 @@
             this.panel21.Size = new System.Drawing.Size(50, 631);
             this.panel21.TabIndex = 0;
             // 
+            // panel22
+            // 
+            this.panel22.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel22.Location = new System.Drawing.Point(121, 5);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(30, 44);
+            this.panel22.TabIndex = 1;
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button2.FlatAppearance.BorderSize = 2;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.Color.Goldenrod;
+            this.button2.Location = new System.Drawing.Point(151, 5);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(121, 44);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "+ Watchlist";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // DetailFilm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -679,7 +705,6 @@
             this.Controls.Add(this.panel_Detailfilm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DetailFilm";
-            this.Text = "aaa";
             this.Load += new System.EventHandler(this.aaa_Load);
             this.panel_Detailfilm.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
@@ -761,5 +786,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel22;
     }
 }

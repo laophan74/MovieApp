@@ -30,7 +30,6 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2TileButton1 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2RatingStar1 = new Guna.UI2.WinForms.Guna2RatingStar();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -51,7 +50,6 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.guna2TileButton1);
             this.panel2.Controls.Add(this.guna2RatingStar1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 35);
@@ -59,24 +57,10 @@
             this.panel2.Size = new System.Drawing.Size(240, 38);
             this.panel2.TabIndex = 1;
             // 
-            // guna2TileButton1
-            // 
-            this.guna2TileButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TileButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TileButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2TileButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2TileButton1.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TileButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton1.Location = new System.Drawing.Point(3, 3);
-            this.guna2TileButton1.Name = "guna2TileButton1";
-            this.guna2TileButton1.Size = new System.Drawing.Size(100, 31);
-            this.guna2TileButton1.TabIndex = 1;
-            this.guna2TileButton1.Text = "+ Watchlist";
-            // 
             // guna2RatingStar1
             // 
             this.guna2RatingStar1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.guna2RatingStar1.Location = new System.Drawing.Point(109, 3);
+            this.guna2RatingStar1.Location = new System.Drawing.Point(5, 3);
             this.guna2RatingStar1.Name = "guna2RatingStar1";
             this.guna2RatingStar1.RatingColor = System.Drawing.Color.Yellow;
             this.guna2RatingStar1.ReadOnly = true;
@@ -130,7 +114,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton1;
         private Guna.UI2.WinForms.Guna2RatingStar guna2RatingStar1;
     }
 }
