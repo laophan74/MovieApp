@@ -46,11 +46,11 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
             this.guna2TileButton2 = new Guna.UI2.WinForms.Guna2TileButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel_signin.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel13.SuspendLayout();
@@ -295,15 +295,6 @@
             this.panel4.Size = new System.Drawing.Size(890, 130);
             this.panel4.TabIndex = 8;
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(446, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(890, 130);
-            this.panel3.TabIndex = 7;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
@@ -350,6 +341,15 @@
             this.panel1.Size = new System.Drawing.Size(446, 953);
             this.panel1.TabIndex = 5;
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(446, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(890, 130);
+            this.panel3.TabIndex = 7;
+            // 
             // SignIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -358,6 +358,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1782, 953);
             this.Controls.Add(this.panel_signin);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SignIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -393,10 +394,10 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel16;
         private Guna.UI2.WinForms.Guna2TileButton guna2TileButton2;
+        private System.Windows.Forms.Panel panel3;
     }
 }

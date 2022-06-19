@@ -30,8 +30,20 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserProfile));
             this.panel_userprofile = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.guna2TileButton3 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2TileButton2 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2TextBox_newpassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox_recentpassword = new Guna.UI2.WinForms.Guna2TextBox();
@@ -52,26 +64,14 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.guna2TileButton3 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel_userprofile.SuspendLayout();
+            this.panel13.SuspendLayout();
+            this.panel14.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel14.SuspendLayout();
-            this.panel13.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_userprofile
@@ -90,6 +90,120 @@
             this.panel_userprofile.Name = "panel_userprofile";
             this.panel_userprofile.Size = new System.Drawing.Size(1782, 953);
             this.panel_userprofile.TabIndex = 0;
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(50, 761);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(1711, 402);
+            this.flowLayoutPanel3.TabIndex = 15;
+            // 
+            // panel13
+            // 
+            this.panel13.Controls.Add(this.label6);
+            this.panel13.Controls.Add(this.button5);
+            this.panel13.Controls.Add(this.button4);
+            this.panel13.Controls.Add(this.button3);
+            this.panel13.Controls.Add(this.label7);
+            this.panel13.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel13.Location = new System.Drawing.Point(50, 1263);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(1711, 86);
+            this.panel13.TabIndex = 14;
+            // 
+            // label6
+            // 
+            this.label6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label6.Location = new System.Drawing.Point(346, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(346, 86);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Introduce\r\nContact us\r\n";
+            // 
+            // button5
+            // 
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button5.Image = global::MovieApp.Properties.Resources.twitter;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(1080, 13);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(147, 46);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "Twitter";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button4.Image = global::MovieApp.Properties.Resources.instagram;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(915, 13);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(147, 46);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "Instagram";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button3.Image = global::MovieApp.Properties.Resources.facebook;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(755, 13);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(147, 46);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "Facebook";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label7.Location = new System.Drawing.Point(0, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(346, 86);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Phan Tiến Lào\r\nPhan Huy Mạnh\r\nĐồ Án 1\r\n";
+            // 
+            // panel14
+            // 
+            this.panel14.Controls.Add(this.label5);
+            this.panel14.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel14.Location = new System.Drawing.Point(50, 706);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(1711, 55);
+            this.panel14.TabIndex = 6;
+            // 
+            // label5
+            // 
+            this.label5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Goldenrod;
+            this.label5.Location = new System.Drawing.Point(0, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(200, 55);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Watchlist";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel10
+            // 
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel10.Location = new System.Drawing.Point(50, 677);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(1711, 29);
+            this.panel10.TabIndex = 3;
             // 
             // panel3
             // 
@@ -120,6 +234,34 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1379, 657);
             this.panel4.TabIndex = 0;
+            // 
+            // guna2TileButton3
+            // 
+            this.guna2TileButton3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.guna2TileButton3.BorderRadius = 10;
+            this.guna2TileButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2TileButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2TileButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2TileButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2TileButton3.FillColor = System.Drawing.Color.Goldenrod;
+            this.guna2TileButton3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TileButton3.ForeColor = System.Drawing.Color.Black;
+            this.guna2TileButton3.Location = new System.Drawing.Point(1217, 478);
+            this.guna2TileButton3.Name = "guna2TileButton3";
+            this.guna2TileButton3.Size = new System.Drawing.Size(159, 36);
+            this.guna2TileButton3.TabIndex = 12;
+            this.guna2TileButton3.Text = "Choose image";
+            this.guna2TileButton3.Click += new System.EventHandler(this.guna2TileButton3_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MovieApp.Properties.Resources.user__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(1057, 130);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(319, 318);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
             // 
             // guna2TileButton2
             // 
@@ -412,147 +554,6 @@
             this.panel1.Size = new System.Drawing.Size(1761, 20);
             this.panel1.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::MovieApp.Properties.Resources.user__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(1057, 130);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(319, 318);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
-            // 
-            // guna2TileButton3
-            // 
-            this.guna2TileButton3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.guna2TileButton3.BorderRadius = 10;
-            this.guna2TileButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TileButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2TileButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2TileButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2TileButton3.FillColor = System.Drawing.Color.Goldenrod;
-            this.guna2TileButton3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TileButton3.ForeColor = System.Drawing.Color.Black;
-            this.guna2TileButton3.Location = new System.Drawing.Point(1217, 478);
-            this.guna2TileButton3.Name = "guna2TileButton3";
-            this.guna2TileButton3.Size = new System.Drawing.Size(159, 36);
-            this.guna2TileButton3.TabIndex = 12;
-            this.guna2TileButton3.Text = "Choose image";
-            // 
-            // panel10
-            // 
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel10.Location = new System.Drawing.Point(50, 677);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1711, 29);
-            this.panel10.TabIndex = 3;
-            // 
-            // panel14
-            // 
-            this.panel14.Controls.Add(this.label5);
-            this.panel14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel14.Location = new System.Drawing.Point(50, 706);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(1711, 55);
-            this.panel14.TabIndex = 6;
-            // 
-            // label5
-            // 
-            this.label5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label5.Location = new System.Drawing.Point(0, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(200, 55);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Watchlist";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // panel13
-            // 
-            this.panel13.Controls.Add(this.label6);
-            this.panel13.Controls.Add(this.button5);
-            this.panel13.Controls.Add(this.button4);
-            this.panel13.Controls.Add(this.button3);
-            this.panel13.Controls.Add(this.label7);
-            this.panel13.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel13.Location = new System.Drawing.Point(50, 1263);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(1711, 86);
-            this.panel13.TabIndex = 14;
-            // 
-            // label6
-            // 
-            this.label6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label6.Location = new System.Drawing.Point(346, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(346, 86);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Introduce\r\nContact us\r\n";
-            // 
-            // button5
-            // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button5.Image = global::MovieApp.Properties.Resources.twitter;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(1080, 13);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(147, 46);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "Twitter";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button4.Image = global::MovieApp.Properties.Resources.instagram;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(915, 13);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(147, 46);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Instagram";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button3.Image = global::MovieApp.Properties.Resources.facebook;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(755, 13);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(147, 46);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Facebook";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // label7
-            // 
-            this.label7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label7.Location = new System.Drawing.Point(0, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(346, 86);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Phan Tiến Lào\r\nPhan Huy Mạnh\r\nĐồ Án 1\r\n";
-            // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(50, 761);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(1711, 402);
-            this.flowLayoutPanel3.TabIndex = 15;
-            // 
             // UserProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -565,13 +566,13 @@
             this.Text = "UserProfile";
             this.Load += new System.EventHandler(this.UserProfile_Load);
             this.panel_userprofile.ResumeLayout(false);
+            this.panel13.ResumeLayout(false);
+            this.panel14.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel14.ResumeLayout(false);
-            this.panel13.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

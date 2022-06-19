@@ -49,3 +49,30 @@ C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.SignUp.resources
 C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.SignIn.resources
 C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.UserProfile.resources
 C:\Users\ASUS\Desktop\MovieApp\MovieApp\obj\Debug\MovieApp.Comment.resources
+E:\Visual Studio\MovieApp\MovieApp\bin\Debug\MovieApp.exe.config
+E:\Visual Studio\MovieApp\MovieApp\bin\Debug\MovieApp.exe
+E:\Visual Studio\MovieApp\MovieApp\bin\Debug\MovieApp.pdb
+E:\Visual Studio\MovieApp\MovieApp\bin\Debug\Interop.WMPLib.dll
+E:\Visual Studio\MovieApp\MovieApp\bin\Debug\AxInterop.WMPLib.dll
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.csproj.AssemblyReference.cache
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.csproj.SuggestedBindingRedirects.cache
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\Interop.WMPLib.dll
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\AxInterop.WMPLib.dll
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.csproj.ResolveComReference.cache
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.Comment.resources
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.DetailFilm.resources
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.CustomTextbox.resources
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.Film.resources
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.FilmWatching.resources
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.MainScreen.resources
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.MainScreenFilm.resources
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.Properties.Resources.resources
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.SignIn.resources
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.SignUp.resources
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.UserProfile.resources
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.csproj.GenerateResource.cache
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.exe.licenses
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.csproj.CoreCompileInputs.cache
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.csproj.CopyComplete
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.exe
+E:\Visual Studio\MovieApp\MovieApp\obj\Debug\MovieApp.pdb

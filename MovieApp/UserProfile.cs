@@ -32,5 +32,10 @@ namespace MovieApp
             guna2TextBox_newpassword.Visible = false;
             guna2TextBox_recentpassword.Visible = false;
         }
+
+        private void guna2TileButton3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

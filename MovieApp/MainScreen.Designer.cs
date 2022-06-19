@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreen));
             this.panel_main = new System.Windows.Forms.Panel();
             this.panel_container = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -39,10 +40,10 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel_main.SuspendLayout();
@@ -223,6 +224,19 @@
             this.panel5.Size = new System.Drawing.Size(382, 65);
             this.panel5.TabIndex = 2;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.button1.BackgroundImage = global::MovieApp.Properties.Resources.loupe__1_;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.button1.Location = new System.Drawing.Point(18, 17);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(53, 36);
+            this.button1.TabIndex = 4;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // guna2TextBox1
             // 
             this.guna2TextBox1.BorderColor = System.Drawing.Color.Gray;
@@ -263,19 +277,6 @@
             this.panel4.Size = new System.Drawing.Size(62, 65);
             this.panel4.TabIndex = 0;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.button1.BackgroundImage = global::MovieApp.Properties.Resources.loupe__1_;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
-            this.button1.Location = new System.Drawing.Point(18, 17);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(53, 36);
-            this.button1.TabIndex = 4;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // guna2CircleButton1
             // 
             this.guna2CircleButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -299,12 +300,12 @@
             // 
             // panel2
             // 
-            this.panel2.BackgroundImage = global::MovieApp.Properties.Resources.tree;
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 65);
+            this.panel2.Size = new System.Drawing.Size(126, 65);
             this.panel2.TabIndex = 0;
             this.panel2.Click += new System.EventHandler(this.panel2_Click);
             // 

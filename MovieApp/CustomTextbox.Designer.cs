@@ -49,7 +49,7 @@
             this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CustomTextbox";
             this.Padding = new System.Windows.Forms.Padding(7);
             this.Size = new System.Drawing.Size(300, 30);
